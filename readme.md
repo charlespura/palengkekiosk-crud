@@ -1,5 +1,6 @@
-db 
 
+
+Database
 
 
 
@@ -15,3 +16,6 @@ CREATE TABLE products (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+ How to run 
+
+ http://localhost/palengkekiosk/connection.php
