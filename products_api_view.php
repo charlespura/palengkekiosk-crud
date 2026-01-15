@@ -2,6 +2,8 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
+
 $api_url = "http://localhost/GithubProject/palengkekiosk/productApi.php";
 $response = file_get_contents($api_url);
 $result = json_decode($response, true);
